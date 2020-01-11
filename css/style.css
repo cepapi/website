@@ -53,8 +53,13 @@ h3 {
   border-radius: 8px;
   font-size: 12px;
 }
-.cursos__card-btn, .cursos__card-btn:hover {
+.cursos__card-btn-orange, .cursos__card-btn-orange:hover {
   color: var(--color-harleyDavidsonOrange);
+}
+
+/* fundadora */
+.fundadora > p {
+  margin: 0;
 }
 
 /* footer */
