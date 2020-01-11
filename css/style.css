@@ -1,0 +1,17 @@
+:root {
+  --color-text-steel-grey: #414449;
+  --color-arsenic: #3f4949;
+  --color-harleyDavidsonOrange: #d65537;
+  --color-mediumTurquoise: #3c9999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  background-color: var(--color-mediumTurquoise);
+}
