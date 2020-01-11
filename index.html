@@ -12,16 +12,33 @@
     <meta name="keywords" content="Aromaterapia,Andrea Darco," />
     <meta name="author" content="Letícia Mazzo,Cíntia Fumi" />
     <link
-      rel="stylesheet"
+    rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
-    />
+      />
+      <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
     <link
-      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+    rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css">
     <title>CEPAPI</title>
   </head>
   <body>
@@ -64,105 +81,79 @@
     <header
       class="text-white bg-dark d-flex flex-column justify-content-center align-items-center text-center px-2 px-lg-5"
     >
-      <h1>Indo além da Aromaterapia, sentindo para aprender!</h1>
-      <p class="d-none d-md-block">
+      <h1 class="m-3">Indo além da Aromaterapia, sentindo para aprender!</h1>
+      <p class="d-none d-md-block header__description px-5 mx-5 w-75">
         Essa é a nossa filosofia de aprendizado, porque entendemos que o
         verdadeiro aprendizado e transformação acontecem através do sentir com o
         conhecimento.
       </p>
-      <button
+      <a
+        href="#cursos"
         type="button"
-        class="btn btn-sm text-white d-inline px-5 py-2 orange-button"
+        class="btn btn-sm text-white d-inline px-5 py-2 mt-5 orange-button"
       >
         Veja nossas turmas
-      </button>
+    </a>
     </header>
 
-    <section id="cursos">
-      <!-- cards -->
+    <section id="cursos" class="p-5 d-flex flex-column align-items-center">
+      <h3 class="text-center border-bottom w-100">Nossos cursos</h3>
+      <p class="d-none d-md-block w-75">
+        Nossos cursos oferecem informação técnica e científica, sensorial e de autoconhecimento e desenvolvimento pessoal, através de aulas dinâmicas que envolvem teorias, experiências sensoriais e debates de construção terapêutica.
+      </p>
+      <div class="row">
+        <div class="card p-0 col-12 col-md-4 cursos__card">
+          <img src="./img/03_campoLavanda.JPG" class="card-img-top" alt="campo de Lavanda">
+          <div class="card-body p-2">
+            <span class="card-title text-white text-uppercase px-3 py-1 cursos__card-title">Presencial</span>
+            <div class="pt-4 align-items-center">
+              <div class="d-flex">
+                <i class="fas fa-camera"></i>
+                <p>200 horas de teoria de prática</p>
+              </div>
+              <div class="d-flex">
+                <i class="fas fa-camera"></i>
+                <p>Início: 07 e 08 de março</p>
+              </div>
+              <div class="d-flex">
+                <i class="fas fa-camera"></i>
+                <p>R$ 8.436,00</p>
+              </div>
+            </div>
+          </div>
+          <a href="psicoaroma.html" class="btn border-top w-100 font-weight-bold text-left p-3 cursos__card-btn">Inscreva-se agora</a>
+        </div>
+      </div>
+    
     </section>
 
     <section id="sobre"></section>
 
     <section id="equipe"></section>
-
-    <section id="contato" class="text-white">
+    
+    <footer class="text-center text-white">
       <div class="informacoes">
-        <p>contato@cepapi.com.br</p>
-
-        <div class="d-flex">
-          <img src="" alt="Icone do aplicativo Whatsapp" />
-          <p>+55 11 98736-2807</p>
+        <div>
+          <span>contato@cepapi.com.br</span>
+    
+          <div class="d-flex justify-content-center align-items-center mt-4 mb-4">
+            <img class="icone-rede-social mr-2" src="./img/whatsapp.svg" alt="Ícone do aplicativo Whatsapp" />
+            <span>+55 11 98736-2807</span>
+          </div>
+        </div>
+    
+        <div class="d-flex justify-content-center align-items-center">
+          <a src=""><img class="icone-rede-social" src="./img/facebook.svg" alt="Ícone do aplicativo Facebook" /></a>
+          <a src=""><img class="icone-rede-social ml-4 mr-4" src="./img/linkedin.svg" alt="Ícone do aplicativo Linkedin" /></a>
+          <a src=""><img class="icone-rede-social" src="./img/instagram.svg" alt="Ícone do aplicativo Instagram" /></a>
         </div>
       </div>
 
-      <div class="redes-sociais">
-        <a src=""><img src="" alt="Icone do aplicativo Facebook" /></a>
-        <a src=""><img src="" alt="Icone do aplicativo Linkedin" /></a>
-        <a src=""><img src="" alt="Icone do aplicativo Instagram" /></a>
+      <div class="direitos">
+        <span>Copyright © CEPAPI 2020. Todos os direitos reservados</span>
       </div>
-    
-    </section>
+    </footer>
 
-      <div class="redes-sociais">
-        <a src=""><img src</a></a></div>
-      </div>div>en</div>
-
-    </section>
-
-      <div class="redes-sociais">
-        <a src=""><img src</a></a></div>
-      </div>div>en</div>
-
-    </section>
-
-      <div class="redes-sociais">
-        <a src=""><img src</a></a></div>
-      </div>div>en</div>
-
-    </section>
-
-      <div class="redes-sociais">
-        <a src=""><img src</a></a></div>
-      </div>div>en</div>
-
-    </section>
-
-      <div class="redes-sociais">
-        <a src=""><img src</a></a></div>
-      </div>div>en</div>
-
-    </section>
-
-      <div class="redes-sociais">
-        <a src=""><img src</a></a></div>
-      </div>div>en</div>
-
-    </section>
-
-      <div class="redes-sociais">
-        <a src=""><img src</a></a></div>
-      </div>div>en</div>
-
-    </section>
-
-    <footer></footer>
-
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
     <script src="./js/index.js"></script>
   </body>
 </html>

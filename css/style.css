@@ -1,6 +1,7 @@
 :root {
   --color-text-steel-grey: #414449;
   --color-arsenic: #3f4949;
+  --color-dark-gray: #3A3A3A;
   --color-harleyDavidsonOrange: #d65537;
   --color-mediumTurquoise: #3c9999;
 }
@@ -23,25 +24,51 @@ header {
       rgba(63, 73, 73, 0.6)
     ),
     url('../img/02_headerBackground.JPG');
-  background-size: cover;
+  background-size: 220%;
   background-position-y: bottom;
-  min-height: 70vh;
+  min-height: 75vh;
 }
 h1 {
   font-size: 36px;
 }
-
+.header__description {
+  font-size: 26px;
+  line-height: 31px;
+}
 .orange-button {
   background-color: var(--color-harleyDavidsonOrange);
   border-radius: 0.5rem;
 }
-
-/* contato */
-#contato {
-  background-color: var(--color-arsenic);
+/* nossos cursos */
+h3 {
+  border-bottom: 0.5px solid var(--color-arsenic);
+  line-height: 3rem;
+}
+.cursos__card {
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.cursos__card-title {
+  background: var(--color-dark-gray);
+  border-radius: 8px;
+  font-size: 12px;
+}
+.cursos__card-btn, .cursos__card-btn:hover {
+  color: var(--color-harleyDavidsonOrange);
 }
 
-/* contato */
-#contato {
+/* footer */
+footer {
   background-color: var(--color-arsenic);
+  padding: 15px;
+}
+
+.icone-rede-social {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.direitos {
+  display: none;
 }
