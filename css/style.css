@@ -15,3 +15,33 @@
 .navbar {
   background-color: var(--color-mediumTurquoise);
 }
+
+/* header */
+header {
+  background-image: linear-gradient(
+      rgba(63, 73, 73, 0.6),
+      rgba(63, 73, 73, 0.6)
+    ),
+    url('../img/02_headerBackground.JPG');
+  background-size: cover;
+  background-position-y: bottom;
+  min-height: 70vh;
+}
+h1 {
+  font-size: 36px;
+}
+
+.orange-button {
+  background-color: var(--color-harleyDavidsonOrange);
+  border-radius: 0.5rem;
+}
+
+/* contato */
+#contato {
+  background-color: var(--color-arsenic);
+}
+
+/* contato */
+#contato {
+  background-color: var(--color-arsenic);
+}
