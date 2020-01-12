@@ -17,6 +17,10 @@
     font-size: 36px;
   }
 
+  .sobre__content {
+    padding: 0 9%;
+  }
+
   /* footer */
   footer {
     padding: 35px 110px 10px;

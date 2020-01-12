@@ -4,6 +4,7 @@
   --color-dark-gray: #3a3a3a;
   --color-harleyDavidsonOrange: #d65537;
   --color-mediumTurquoise: #3c9999;
+  --color-azure: #f6f9f9;
 }
 html {
   scroll-behavior: smooth;
@@ -82,6 +83,19 @@ h3 {
 .cursos__card-btn-orange,
 .cursos__card-btn-orange:hover {
   color: var(--color-harleyDavidsonOrange);
+}
+
+/* sobre */
+#sobre {
+  background-color: var(--color-azure);
+}
+.sobre__gradient-border {
+  background: linear-gradient(
+    171deg,
+    #3c9999 2.92%,
+    rgba(60, 153, 153, 0) 141.2%
+  );
+  border-radius: 4px;
 }
 
 /* fundadora */
