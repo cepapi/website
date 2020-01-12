@@ -5,7 +5,9 @@
   --color-harleyDavidsonOrange: #d65537;
   --color-mediumTurquoise: #3c9999;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -39,6 +41,7 @@ h1 {
   background-color: var(--color-harleyDavidsonOrange);
   border-radius: 0.5rem;
 }
+
 /* nossos cursos */
 h3 {
   border-bottom: 0.5px solid var(--color-arsenic);
