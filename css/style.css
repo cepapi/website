@@ -1,7 +1,7 @@
 :root {
   --color-text-steel-grey: #414449;
   --color-arsenic: #3f4949;
-  --color-dark-gray: #3A3A3A;
+  --color-dark-gray: #3a3a3a;
   --color-harleyDavidsonOrange: #d65537;
   --color-mediumTurquoise: #3c9999;
 }
@@ -43,17 +43,39 @@ h1 {
 h3 {
   border-bottom: 0.5px solid var(--color-arsenic);
   line-height: 3rem;
+  width: 85%;
+  font-size: 24px;
 }
 .cursos__card {
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
+}
+.cursos__name {
+  background: #ffffff;
+  opacity: 0.8;
+  border: 1px solid #ffffff;
+  border-radius: 0px 8px 8px 0px;
+  bottom: 56%;
+}
+.cursos__name-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.cursos__name-description {
+  font-size: 0.75rem;
+}
+.cursos__card-img-top {
+  width: 100%;
+  height: 256px;
+  object-fit: cover;
 }
 .cursos__card-title {
   background: var(--color-dark-gray);
   border-radius: 8px;
   font-size: 12px;
 }
-.cursos__card-btn-orange, .cursos__card-btn-orange:hover {
+.cursos__card-btn-orange,
+.cursos__card-btn-orange:hover {
   color: var(--color-harleyDavidsonOrange);
 }
 
