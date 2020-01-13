@@ -21,6 +21,17 @@
     padding: 0 9%;
   }
 
+  .depoimentos__title {
+    width: 85%;
+  }
+
+  #emailNovidades {
+    min-width: 400px;
+  }
+  .novidades__title {
+    font-size: 22px;
+  }
+
   /* footer */
   footer {
     padding: 35px 110px 10px;

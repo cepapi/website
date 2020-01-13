@@ -5,6 +5,7 @@
   --color-harleyDavidsonOrange: #d65537;
   --color-mediumTurquoise: #3c9999;
   --color-azure: #f6f9f9;
+  --color-white-smoke: #faf3f3;
 }
 html {
   scroll-behavior: smooth;
@@ -14,6 +15,10 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+}
+
+body {
+  color: var(--color-text-steel-grey);
 }
 
 .navbar {
@@ -30,7 +35,8 @@ header {
   background-size: 220%;
   background-position-y: bottom;
   background-repeat: no-repeat;
-  min-height: 75vh;
+  background-position-x: center;
+  min-height: 70vh;
 }
 h1 {
   font-size: 36px;
@@ -96,6 +102,33 @@ h3 {
     rgba(60, 153, 153, 0) 141.2%
   );
   border-radius: 4px;
+}
+
+/* depoimentos */
+.depoimentos {
+  background-color: var(--color-white-smoke);
+}
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
+.carousel-indicators li {
+  background-color: var(--color-text-steel-grey);
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+/* novidades */
+#novidades {
+  background-color: var(--color-azure);
+}
+.novidades__title {
+  font-size: 18px;
+}
+#emailNovidades {
+  min-width: 240px;
 }
 
 /* fundadora */
