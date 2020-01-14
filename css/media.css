@@ -21,6 +21,10 @@
     padding: 0 9%;
   }
 
+  h2 {
+    font-size: 36px;
+  }
+
   .depoimentos__title {
     width: 85%;
   }
@@ -35,16 +39,21 @@
   /* footer */
   footer {
     padding: 35px 110px 10px;
+    text-align: left;
   }
 
-  .informacoes {
+  .contato__informacoes {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
   }
 
-  .direitos {
-    display: flex;
-    justify-content: center;
+  .contato__meios {
+    text-align: left;
   }
+
+  .contato__telefone {
+    justify-content: left;
+  }
+  
 }
