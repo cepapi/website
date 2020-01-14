@@ -59,7 +59,7 @@ h3 {
   font-weight: bold;
   line-height: inherit;
 }
-.cursos__card {
+.cursos__card .equipe__card  {
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
@@ -137,7 +137,29 @@ h2 {
   min-width: 240px;
 }
 
-/* fundadora */
+/* equipe */
+.equipe__imagem {
+  height: 270px;
+  overflow: hidden;
+  position: relative;
+}
+.equipe__imagem > img {
+  width: 1000px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.equipe__name {
+  background: #ffffff;
+  opacity: 0.6;
+  border: 1px solid #ffffff;
+  border-radius: 0px 8px 8px 0px;
+  bottom: 50%;
+  min-height: 80px;
+  color: black;
+}
+
 .equipe__fundadora > p {
   margin: 0;
 }
@@ -147,27 +169,22 @@ footer {
   background-color: var(--color-arsenic);
   padding: 15px;
 }
-
 .icone-rede-social {
   width: 16px;
   height: 16px;
 }
-
 .contato__meios {
   text-align: center;
 }
-
 .contato__email {
   font-size: 36px;
 }
-
 .contato__telefone {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24px;
 }
-
 .contato__direitos {  
   display: flex;
   justify-content: center;

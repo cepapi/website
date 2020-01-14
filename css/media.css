@@ -36,24 +36,43 @@
     font-size: 22px;
   }
 
+  /* equipe */
+  .equipe__imagem {
+    height: 270px;
+    overflow: hidden;
+    position: relative;
+  }
+  .equipe__imagem > img {
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .equipe__name {
+    background: #ffffff;
+    opacity: 0.6;
+    border: 1px solid #ffffff;
+    border-radius: 0px 8px 8px 0px;
+    bottom: 53%;
+    min-height: 80px;
+    color: black;
+  }
+
   /* footer */
   footer {
     padding: 35px 110px 10px;
     text-align: left;
   }
-
   .contato__informacoes {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
   }
-
   .contato__meios {
     text-align: left;
   }
-
   .contato__telefone {
     justify-content: left;
   }
-  
 }
