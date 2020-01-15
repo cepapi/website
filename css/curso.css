@@ -1,3 +1,7 @@
+:root {
+  --color-mediumTurquoise: #3c9999;
+}
+
 .politica__recuo {
   text-indent: 2rem;
 }
@@ -6,4 +10,8 @@
   .politica__container {
     width: 75vw;
   }
+}
+
+.card-header {
+  background-color: var(--color-mediumTurquoise);
 }
