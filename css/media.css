@@ -66,6 +66,29 @@
     color: black;
   }
 
+  #modulos {
+    margin: 0 24px;
+  }
+
+  /* investimento */
+  .investimentos___conteudo {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .investimentos___matricula {
+    width: 50%;
+    justify-content: start;
+  }
+  .investimentos___info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .investimentos___detalhes {
+    width: 50%;
+    padding-top: 24px;
+  }
+
   /* footer */
   footer {
     padding: 35px 110px 10px;

@@ -3,9 +3,10 @@
   --color-arsenic: #3f4949;
   --color-dark-gray: #3a3a3a;
   --color-harleyDavidsonOrange: #d65537;
-  --color-mediumTurquoise: #3c9999;
+  --color-mediumTurquoise: #050505;
   --color-azure: #f6f9f9;
   --color-white-smoke: #faf3f3;
+  --color-green: #6FCF97;
 }
 html {
   scroll-behavior: smooth;
@@ -112,10 +113,26 @@ h2 {
 }
 
 /* investimento */
+.investimentos___matricula {
+  justify-content: center;
+}
 .investimentos___info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.investimentos___parcela {
+  font-size: 36px;
+}
+.investimentos___desconto > p {
+  white-space: nowrap;
+}
+.investimentos___desconto > span {
+  background-color: var(--color-green);
+  border-radius: 20px;
+  padding: 2px 10px;
+  color: white;
+  white-space: nowrap;
 }
 
 /* depoimentos */
