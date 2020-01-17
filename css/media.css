@@ -88,7 +88,14 @@
     width: 50%;
     padding-top: 24px;
   }
-
+  .investimentos___desconto  {
+    display: flex;
+    align-items: center;
+  }
+  .investimentos___desconto > p {
+    margin: 0;
+  }
+  
   /* footer */
   footer {
     padding: 35px 110px 10px;
