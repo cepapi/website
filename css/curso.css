@@ -1,27 +1,37 @@
+:root {
+  --color-text-steel-grey: #414449;
+  --color-arsenic: #3f4949;
+  --color-gray: #f2f2f2;
+  --color-gray-background: #f6f9f9;
+  --color-dark-gray: #3a3a3a;
+  --color-harleyDavidsonOrange: #d65537;
+  --color-mediumTurquoise: #3c9999;
+  --color-azure: #f6f9f9;
+  --color-white-smoke: #faf3f3;
+  --color-green: #6FCF97;
+}
+
 .politica__recuo {
   text-indent: 2rem;
 }
 
-@media (min-width: 768px) {
-  .politica__container {
-    width: 75vw;
-  }
-}
-
 /* header */
 header {
-  background-image: linear-gradient(
-    rgba(63, 73, 73, 0.6),
-    rgba(63, 73, 73, 0.6)
-  ),
-  url('../img/02_headerBackground.JPG');
-  background-size: 220%;
+  background-image: url(../img/cursoBackground.jpg);
+  background-size: cover;
   background-position-y: bottom;
   background-repeat: no-repeat;
-  background-position-x: center;
-  min-height: 70vh;
-
+  background-position-x: left;
 }
+
+.header___title {
+  font-size: 36px;
+  text-shadow: 1px 1px 10px var(--color-azure);
+}
+.header___turmas p {
+  text-shadow: 1px 1px 2px var(--color-azure);
+}
+
 .header___icone {
   width: 30px;
   height: 25px;
@@ -47,6 +57,10 @@ header {
   background-color: var(--color-gray-background);
 }
 
+#sympla-widget-710756 iframe {
+  min-height: 264px !important;
+}
+
 .psicoaroma-cursos__name {
   background: #ffffff;
   opacity: 0.8;
@@ -56,6 +70,16 @@ header {
   min-height: 88px;
 }
 
-#card-img-andrea {
-  object-fit: none;
+@media (min-width: 768px) {
+  .politica__container {
+    width: 75vw;
+  }
+  
+  .header___title {
+    font-size: 48px;
+  }
+
+  .resumo___formatura {
+    width: 660px;
+  }
 }

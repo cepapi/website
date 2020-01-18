@@ -34,9 +34,9 @@ header {
       rgba(63, 73, 73, 0.6),
       rgba(63, 73, 73, 0.6)
     ),
-    url('../img/02_headerBackground.JPG');
-  background-size: 220%;
-  background-position-y: bottom;
+    url('../img/02_headerBackground.jpg');
+  background-size: cover;
+  background-position-y: top;
   background-repeat: no-repeat;
   background-position-x: center;
   min-height: 70vh;
@@ -190,9 +190,9 @@ h2 {
   position: relative;
 }
 .equipe__imagem > img {
-  width: 1000px;
+  width: 600px;
   position: absolute;
-  top: 45%;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
