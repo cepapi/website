@@ -1,9 +1,11 @@
 :root {
   --color-text-steel-grey: #414449;
   --color-arsenic: #3f4949;
+  --color-gray: #f2f2f2;
+  --color-gray-background: #f6f9f9;
   --color-dark-gray: #3a3a3a;
   --color-harleyDavidsonOrange: #d65537;
-  --color-mediumTurquoise: #050505;
+  --color-mediumTurquoise: #3c9999;
   --color-azure: #f6f9f9;
   --color-white-smoke: #faf3f3;
   --color-green: #6FCF97;
@@ -46,9 +48,29 @@ h1 {
   font-size: 26px;
   line-height: 31px;
 }
+
+/* botões */
 .orange-button {
   background-color: var(--color-harleyDavidsonOrange);
   border-radius: 0.5rem;
+  color: white;
+  width: 255px;
+}
+.orange-button:hover{
+  color: var(--color-harleyDavidsonOrange);
+  border: 2px solid var(--color-harleyDavidsonOrange);
+  background-color: var(--color-gray);
+}
+.gray-button {
+  background-color: var(--color-gray);
+  border: 2px solid var(--color-harleyDavidsonOrange);
+  color: var(--color-harleyDavidsonOrange);
+  border-radius: 0.5rem;
+  width: 255px;
+}
+.gray-button:hover{
+  background-color: var(--color-harleyDavidsonOrange);
+  color: var(--color-gray);
 }
 
 /* nossos cursos */
@@ -60,7 +82,6 @@ h3 {
   font-weight: bold;
   line-height: inherit;
 }
-
 .cursos__card .equipe__card  {
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
@@ -184,7 +205,6 @@ h2 {
   min-height: 80px;
   color: black;
 }
-
 .equipe__fundadora > p {
   margin: 0;
 }

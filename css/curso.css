@@ -1,7 +1,3 @@
-:root {
-  --color-mediumTurquoise: #3c9999;
-}
-
 .politica__recuo {
   text-indent: 2rem;
 }
@@ -12,8 +8,43 @@
   }
 }
 
+/* header */
+header {
+  background-image: linear-gradient(
+    rgba(63, 73, 73, 0.6),
+    rgba(63, 73, 73, 0.6)
+  ),
+  url('../img/02_headerBackground.JPG');
+  background-size: 220%;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  min-height: 70vh;
+
+}
+.header___icone {
+  width: 30px;
+  height: 25px;
+}
+.header___botoes > a {
+  margin: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .card-header {
   background-color: var(--color-mediumTurquoise);
+}
+
+/* resumo */
+.resumo___formatura {
+  width: 100%;
+}
+
+/* informacoes */
+/* investimentos */
+/* depoimentos */
+#informacoes, #investimentos, #depoimentos {
+  background-color: var(--color-gray-background);
 }
 
 .psicoaroma-cursos__name {

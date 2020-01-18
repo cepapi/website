@@ -3,6 +3,10 @@
   .equipe__name {
     bottom: 48%;
   }
+
+  .resumo___formatura {
+    max-width: 75%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -43,6 +47,23 @@
     font-size: 22px;
   }
 
+  /* header curso */
+  .header___turmas {
+    display: flex;
+  }
+  .header___botoes {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* resumo curso */
+  #resumo {
+    margin: 24px;
+  }
+  .resumo___formatura {
+    max-width: 75%;
+  }
+
   /* equipe */
   .equipe__imagem {
     height: 270px;
@@ -66,11 +87,12 @@
     color: black;
   }
 
+  /* modulos curso */
   #modulos {
     margin: 0 24px;
   }
 
-  /* investimento */
+  /* investimentos curso */
   .investimentos___conteudo {
     display: flex;
     flex-direction: row-reverse;
@@ -95,7 +117,7 @@
   .investimentos___desconto > p {
     margin: 0;
   }
-  
+
   /* footer */
   footer {
     padding: 35px 110px 10px;
