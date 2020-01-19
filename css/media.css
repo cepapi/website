@@ -1,4 +1,29 @@
-/* Media para não deixar a faixa com nome da Andrea cobrir seu rosto na foto */
+/* Media para botões no sistema iOS */
+@media only screen and (-webkit-min-device-pixel-ratio: 1) {
+  ::i-block-chrome, .orange-button {
+    background-color: var(--color-harleyDavidsonOrange);
+    border-radius: 0.5rem;
+    color: white;
+    width: 255px;
+  }
+  ::i-block-chrome, .orange-button:hover{
+    color: var(--color-harleyDavidsonOrange);
+    border: 2px solid var(--color-harleyDavidsonOrange);
+    background-color: var(--color-gray);
+  }
+  ::i-block-chrome, .gray-button {
+    background-color: var(--color-gray);
+    border: 2px solid var(--color-harleyDavidsonOrange);
+    color: var(--color-harleyDavidsonOrange);
+    border-radius: 0.5rem;
+    width: 255px;
+  }
+  ::i-block-chrome, .gray-button:hover{
+    background-color: var(--color-harleyDavidsonOrange);
+    color: var(--color-gray);
+  }
+}
+
 @media (min-width: 460px) and (max-width: 767px) {
   .equipe__name {
     bottom: 48%;
