@@ -16,6 +16,9 @@
 }
 
 /* header */
+h1 {
+  width: 70%;
+}
 header {
   background-image: url(../img/cursoBackground.jpg);
   background-size: cover;
@@ -23,7 +26,6 @@ header {
   background-repeat: no-repeat;
   background-position-x: left;
 }
-
 .header___title {
   font-size: 36px;
   text-shadow: 1px 1px 10px var(--color-azure);
@@ -31,7 +33,6 @@ header {
 .header___turmas p {
   text-shadow: 1px 1px 2px var(--color-azure);
 }
-
 .header___icone {
   width: 30px;
   height: 25px;
@@ -58,7 +59,8 @@ header {
 }
 
 #sympla-widget-710756 iframe {
-  min-height: 264px !important;
+  min-width: 320px !important;
+  min-height: 295px !important;
 }
 
 .psicoaroma-cursos__name {
