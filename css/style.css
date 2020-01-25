@@ -43,23 +43,31 @@ header {
 }
 h1 {
   font-size: 36px;
+  text-shadow: 2px 2px var(--color-dark-gray);
+  font-weight: 500;
 }
 .header__description {
   font-size: 26px;
   line-height: 31px;
+  text-shadow: 1px 1px var(--color-dark-gray);
 }
 
 /* botões */
 .orange-button {
   background-color: var(--color-harleyDavidsonOrange);
   border-radius: 0.5rem;
+  border: 2px solid var(--color-harleyDavidsonOrange);
   color: white;
   width: 255px;
+  text-decoration: none;
+  cursor: pointer;
 }
 .orange-button:hover{
   color: var(--color-harleyDavidsonOrange);
   border: 2px solid var(--color-harleyDavidsonOrange);
   background-color: var(--color-gray);
+  text-decoration: none;
+  cursor: pointer;
 }
 .gray-button {
   background-color: var(--color-gray);
